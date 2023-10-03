@@ -5,13 +5,14 @@ class Sandbox : public openuet::Application
     public:
         Sandbox()
         {
-            std::cout << "Hello, First!" << std::endl;
         };
 
         ~Sandbox()
         {
-
         };
+
+    private:
+
 };
 
 openuet::Application* openuet::CreateApplication()
